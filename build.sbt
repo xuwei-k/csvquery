@@ -7,7 +7,7 @@ lazy val root = (project in file("."))
     crossScalaVersions := Seq("2.11.12", "2.12.8"),
     resolvers += "sonatype releases" at "https://oss.sonatype.org/content/repositories/releases",
     libraryDependencies ++= Seq(
-      "com.h2database"       %  "h2"              % "1.4.197",
+      "com.h2database"       %  "h2"              % "1.4.199",
       "org.scalikejdbc"      %% "scalikejdbc"     % "3.3.5",
       "org.skinny-framework" %% "skinny-orm"      % "3.0.2" % "provided",
       "ch.qos.logback"       %  "logback-classic" % "1.2.3"     % "provided",
